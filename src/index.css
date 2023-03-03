@@ -57,7 +57,7 @@ body {
 }
 
 .title-container {
-  width: 100%;
+  width: fit-content;
 }
 
 .hero-title {
@@ -374,10 +374,6 @@ footer {
 
 /* Media Queries  */
 @media only screen and (min-width: 600px) {
-  .title-container {
-    width: 58%;
-  }
-
   .project-name {
     font-size: 1.6rem;
   }
@@ -418,10 +414,6 @@ footer {
 
   .hero-container {
     margin-top: 1.5em;
-  }
-
-  .title-container {
-    width: 54%;
   }
 
   .hero-p {
