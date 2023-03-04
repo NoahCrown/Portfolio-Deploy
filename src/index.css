@@ -184,10 +184,17 @@ hr {
 }
 
 .project-container {
-  padding: 3em 3em;
+  padding: 1em 1em;
+  padding-bottom: 2em;
   display: flex;
   gap: 1em;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  height: fit-content;
+
+}
+
+.projec-info-container{
+  width: 50%;
 
 }
 
@@ -202,16 +209,17 @@ hr {
 
 
 
-.project-name {
+.project-name{
   font-weight: 300;
-  margin-bottom: 1em;
   font-size: 1.4rem;
   text-align: left;
   font-weight: 600;
 
+
 }
 
 .project-description {
+  padding-top: 1em;
   margin-bottom: 1.2em;
   font-size: .8rem;
   line-height: 1.6em;
@@ -219,17 +227,19 @@ hr {
 
 .tech-used {
   border: 1.5px #E94560 solid;
-  width: 25%;
+  width: fit-content;
   padding: .5em .5em;
   text-align: center;
-  margin-bottom: 1.6em;
+  
 }
 
 .tech-container{
   display: flex;
   justify-content: flex-start;
-  gap: .4em;
+  gap: .7em;
   width: 100%;
+  flex-wrap: wrap;
+  margin-bottom: 1em;
 }
 .tech-text {
   font-size: .8rem;
@@ -252,8 +262,8 @@ hr {
 .project-buttons {
   display: flex;
   gap: 1em;
-  width: 50%;
-  position:absolute;
+  width: 100%;
+  background-color: #083248;
 }
 
 
@@ -271,6 +281,7 @@ hr {
   cursor: pointer;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   font-size: .8rem;
+  
 
 }
 

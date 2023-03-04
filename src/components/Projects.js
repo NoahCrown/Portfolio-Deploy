@@ -4,7 +4,7 @@ const Projects = () => {
         {
             title: "Workout Tracker",
             img: "https://user-images.githubusercontent.com/91674419/222504313-fcad0023-39a7-4a91-b77e-ec857deff4f3.png",
-            description: "Our workout tracker is an easy-to-use tool that helps you monitor and save your progress in a secure database. You can create custom workout plans, log your progress after each session, set goals, and access your progress history anytime. ",
+            description: "Our workout tracker is an easy-to-use tool that helps you monitor and save your progress in a secure database. You can create custom workout plans, log your progress after each session, set goals, and access your progress history anytime.",
             techUsed: ["HTML", "CSS", "JavaScript", "React", "MongoDB","Express", "Node"],
             linkToDemo: "https//",
             linkToGithub:"https://github.com/NoahCrown/Workout-Tracker",

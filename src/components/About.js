@@ -15,7 +15,8 @@ const About = () => {
             title:'Noah.resume',
             info: '“charlesnoah.pdf”',
             isClickable: true,
-            type: 'resume'
+            type: 'resume',
+            link:'../links/RESUME_Charles_Noah_De_Rama.pdf'
         },
          {
             title: "Noah.interest",
@@ -40,7 +41,8 @@ const About = () => {
             title:'Noah.certifications',
             info:'“certifications.pdf”',
             isClickable: true,
-            type:'certifications'
+            type:'certifications',
+            link: '../links/CERTIFICATES_Charles_Noah_De_Rama.pdf'
         }
 
     ]
@@ -70,7 +72,9 @@ const About = () => {
                     title={item.title} 
                     info={item.info} 
                     isClickable={item.isClickable}
-                    type={item.type} />
+                    type={item.type}
+                    link={item.link}
+                     />
                 )
             })}
             <div className="blinking-arrow-container">
