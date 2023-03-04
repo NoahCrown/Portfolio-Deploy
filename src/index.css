@@ -193,7 +193,7 @@ hr {
 
 }
 
-.projec-info-container{
+.projec-info-container {
   width: 50%;
 
 }
@@ -203,13 +203,13 @@ hr {
   display: none;
   width: 40%;
   aspect-ratio: 1/1;
-  object-fit:contain;
+  object-fit: contain;
 
 }
 
 
 
-.project-name{
+.project-name {
   font-weight: 300;
   font-size: 1.4rem;
   text-align: left;
@@ -230,10 +230,10 @@ hr {
   width: fit-content;
   padding: .5em .5em;
   text-align: center;
-  
+
 }
 
-.tech-container{
+.tech-container {
   display: flex;
   justify-content: flex-start;
   gap: .7em;
@@ -241,6 +241,7 @@ hr {
   flex-wrap: wrap;
   margin-bottom: 1em;
 }
+
 .tech-text {
   font-size: .8rem;
 }
@@ -253,7 +254,7 @@ hr {
 
 }
 
-.view-source{
+.view-source {
   color: #FFFBEB;
   text-decoration: none;
 
@@ -281,7 +282,7 @@ hr {
   cursor: pointer;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   font-size: .8rem;
-  
+
 
 }
 
@@ -311,7 +312,8 @@ hr {
 .contact-info-container a {
   color: inherit;
 }
-.e-mail{
+
+.e-mail {
   text-decoration: none;
   color: #FFFBEB;
 }
@@ -456,6 +458,11 @@ footer {
     gap: 3em;
   }
 
+  .live-demo,
+  .view-source {
+    width: 55%;
+  }
+
   .project-image {
     display: block;
   }
@@ -464,11 +471,12 @@ footer {
   .view-source {
     font-size: 1rem;
   }
-  .contact-info-container{
+
+  .contact-info-container {
     justify-content: center;
   }
 
-  .blinking-arrow-container{
+  .blinking-arrow-container {
     width: 3%;
   }
 }
